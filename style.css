@@ -91,6 +91,9 @@
   background-color: aquamarine;
 
 }
+.loginbtn button:hover {
+  background-color:aqua;
+}
 .create{
   float:inherit;
 }
@@ -102,6 +105,89 @@
   top: 303px;
 
 }
+
+
+/* HOME CSS */
+
+.homenav{
+  display:flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.topnav{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+
+.homenav a{
+  text-decoration: none;
+  padding: 15px;
+  color: #000000;
+  font-size: xx-large;
+}
+
+.topnav input{
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.topnav button{
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background:gray;
+  color: white;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.proficon a{
+  float: left;
+  /* margin-right: 1750%; */
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:#000;
+  display: block;
+}
+.sidebar a:hover{
+  background-color:aqua;
+}
+
+/* .column {
+  float: left;
+  display: flex;
+  width: 50%;
+  justify-content:flex-end;
+
+} 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}   */
 
 /* .navbar1 {
   width: 100%;
