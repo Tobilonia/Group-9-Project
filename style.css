@@ -113,6 +113,9 @@
   display:flex;
   justify-content: space-between;
   background-color: aqua;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .topnav{
@@ -121,6 +124,7 @@
   padding: 15px;
   margin-right: 10%;
   justify-content: space-between;
+  
 }
 
 .homenav a{
@@ -160,7 +164,7 @@
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: 10;
+  top: 70px;
   left: 0;
   overflow-x: hidden;
   padding-top: 16px;
@@ -177,7 +181,7 @@
   background-color:aqua;
 }
 
-/* .column {
+.column {
   float: left;
   display: flex;
   width: 50%;
@@ -187,7 +191,90 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
-}   */
+}  
+
+
+.post1{
+  top: 70px;
+  left:370px;
+  position:absolute;
+  background:white;
+  width:580px;
+  height:600px;
+  border-radius:3px/3px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  width: 60%;
+  overflow-x: hidden;
+  overflow-y: auto;
+ 
+}
+p1{
+  color:#1b6192;
+  font-family:verdana;
+  font-size:15px;
+}
+p2{
+  color:#868383;
+  font-family:verdana;
+  font-size:15px;
+}
+p3{
+  color:#1b6192;
+  font-family:verdana;
+  font-size:15px;
+  font-weight:bold;
+}
+p4{
+  color:#868383;
+  font-family:verdana;
+  font-size:10px;
+}
+p6{
+  color:#1b6192;
+  font-family:verdana;
+  font-size:15px;
+  word-spacing:10px;
+}
+p7{
+  font-size:20px;
+  color:#868383;
+  font-family:verdana;
+}
+#post2text{
+  left:50px;
+  top:10px;
+  padding-top:0px;
+  height:20px;
+  width:60%;
+}
+#commentprof2{
+  top:730px;
+  left:0px;
+  width:25px;
+  height:25px;
+}
+#commentboxpos2{
+  top:730px;
+  left:40px;
+  width:500px;
+  height:30px;
+}
+
+#commentbox{
+  height:30;
+  width:500;}
+
+.sidebox{
+  top:70px;
+  left:1000px;
+  width:210px;
+  height:400px;
+  position:absolute;
+  font-family:verdana;
+  color: #363030;
+  font-size:15px;}
 
 /* .navbar1 {
   width: 100%;
