@@ -168,6 +168,7 @@
   left: 0;
   overflow-x: hidden;
   padding-top: 16px;
+  background-color: goldenrod;
 }
 
 .sidebar a {
